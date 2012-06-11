@@ -1,0 +1,42 @@
+10
+
+dir
+2
+https://edvorkin.svn.cvsdude.com/statsd_graph/trunk/src/test/java
+https://edvorkin.svn.cvsdude.com/statsd_graph
+
+
+
+2012-06-03T18:52:08.170878Z
+2
+edvorkin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bc548788-1058-49fa-ab0d-b296640b4ede
+
+com
+dir
+
+
+
+add
+
+statsd_graph
+dir
+
+
+
+delete
+

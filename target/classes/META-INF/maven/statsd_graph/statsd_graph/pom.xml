@@ -1,0 +1,121 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>statsd_graph</groupId>
+  <artifactId>statsd_graph</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>statsd_graph</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <org.springframework.version>3.1.1.RELEASE</org.springframework.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    	<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+    <!--
+
+    Aspect Oriented Programming (AOP) Framework (depends on spring-core, spring-beans)
+
+    Define this if you use Spring AOP APIs (org.springframework.aop.*)
+
+-->
+
+<dependency>
+
+  <groupId>org.springframework</groupId>
+
+  <artifactId>spring-aop</artifactId>
+
+  <version>${org.springframework.version}</version>
+
+</dependency>
+	<dependency>
+
+			<groupId>org.springframework</groupId>
+
+			<artifactId>spring-test</artifactId>
+
+			<version>${org.springframework.version}</version>
+
+		</dependency>
+
+		<dependency>
+
+ <groupId>org.springframework</groupId>
+
+ <artifactId>spring-context</artifactId>
+
+<version>${org.springframework.version}</version>
+
+</dependency> 
+
+
+		<dependency>
+
+			<groupId>commons-io</groupId>
+
+			<artifactId>commons-io</artifactId>
+
+			<version>2.1</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>commons-lang</groupId>
+
+			<artifactId>commons-lang</artifactId>
+
+			<version>2.6</version>
+
+		</dependency>
+
+<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib-nodep</artifactId>
+			<version>2.2</version>
+			
+		</dependency>
+		
+	
+
+	<!--   aspectJ for logging into the Graphite -->
+
+	<dependency>
+
+    <groupId>org.aspectj</groupId>
+
+    <artifactId>aspectjrt</artifactId>
+
+    <version>1.6.12</version>
+
+  </dependency>
+
+
+
+  <dependency>
+
+    <groupId>org.aspectj</groupId>
+
+    <artifactId>aspectjweaver</artifactId>
+
+    <version>1.6.12</version>
+
+  </dependency>
+  </dependencies>
+</project>
